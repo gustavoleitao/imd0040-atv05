@@ -21,6 +21,7 @@ class PixTest {
         Method method = clazzPix.getMethod("debitar");
         assertNotNull(method);
     }
+
     @Test
     void existsMethodEstornar() throws ClassNotFoundException, NoSuchMethodException {
         Class<?> clazzPix = Class.forName("br.ufrn.imd.Pix");
@@ -34,7 +35,7 @@ class PixTest {
         Object cartaoInstance = calzzCartao.getDeclaredConstructor().newInstance();
         Method methodProcessarPagamento = calzzCartao.getMethod("debitar");
         boolean result = (boolean) methodProcessarPagamento.invoke(cartaoInstance);
-        assertFalse(result);
+        assertTrue(result);
     }
 
     @Test
