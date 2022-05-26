@@ -1,6 +1,6 @@
 ## Atividade
 
-Você recebeu de um aruiteto de software o seguinte modelo para a implementação de um sistema de pagamento de um comércio eletrônico:
+Você recebeu de um arquiteto de software o seguinte modelo para a implementação de um sistema de pagamento de um comércio eletrônico:
 
 ![Classes](https://github.com/gustavoleitao/imd0040-atv05/blob/main/src/main/resources/atv5-uml.png?raw=true)
 
