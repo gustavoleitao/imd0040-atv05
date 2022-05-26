@@ -12,7 +12,7 @@ Diante disso, implemente as classes e interfaces desejadas lavando em conta os s
 
 Em seguida crie uma classe chamada `ProcessadorPagamentos`. Essa classe simula o processamento de um pagamento feito com um ou mais métodos de pagamento.
 
-O processador de pagamentos deve iterar sobre os métodos e chamar o método debitar. No entanto, se houver alguma falhar, este deve estornar o pagamento daqueles já processados com sucesso.
+O processador de pagamentos deve iterar sobre os métodos e chamar o método debitar. No entanto, se houver alguma falha, este deve estornar o pagamento daqueles já processados com sucesso.
 
 Ou seja, basta uma falha que todos os outros métodos já debitados anteriores precisam ser estornados.
 
